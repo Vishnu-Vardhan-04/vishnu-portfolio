@@ -58,15 +58,17 @@ h1{
 .infocls > h3{
     margin-bottom: 30px;
 }
+.para > p {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
 .profilepic > img{
     height: 300px;
     width: 300px;
     border-radius: 50%;
     border: 5px solid #CCC5B9;
-}
-.infocls > p {
-    margin-bottom: 30px;
 }
 
 .infocls > a > img {
@@ -77,6 +79,7 @@ h1{
     margin-right: 15px;
 }
 h4{
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 .container{
