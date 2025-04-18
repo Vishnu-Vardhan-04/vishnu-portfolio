@@ -1,0 +1,313 @@
+body {
+    background-color: #252422;
+}
+
+*{
+    color: #FFFCF2;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.job {
+    
+    color: #EB5E28;
+}
+.name{
+    color: #EB5E28;
+    font-size: 3rem;
+}
+.infocls > h3 {
+    animation-timing-function: ease;
+    position: relative;
+    animation: mymove1 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.infocls > h1 {
+    animation-timing-function: ease;
+    position: relative;
+    animation: mymove 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+    from {left: 130px;}
+    to {left: 0px;}
+}
+@keyframes mymove1 {
+    from {left: -1300px;}
+    to {left: 0px;}
+}
+
+.navbar{
+    display: flex;
+    gap: 50px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.navbar a {
+    text-decoration: none;
+}
+h1{
+    font-size: 2rem;
+}
+.infocls > h3{
+    margin-bottom: 30px;
+}
+
+.profilepic > img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #CCC5B9;
+}
+.infocls > p {
+    margin-bottom: 30px;
+}
+
+.infocls > a > img {
+    background-color: white;
+    height: 25px;
+}
+.infocls > a {
+    margin-right: 15px;
+}
+h4{
+    margin-bottom: 10px;
+}
+.container{
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p{
+    font-weight: 400;
+}
+.prof > .codprof,.projectHead{
+    font-size: 30Px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-weight: 500;
+    margin-left:130px;
+}
+.c,.p{
+    color: #EB5E28;
+}
+.codingprofiles{
+    display: flex;
+    gap: 150px;
+    margin-left: 130px;
+    margin-bottom: 80px;
+}
+.code > a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    background: linear-gradient(#EB5E28) left no-repeat, #FFFCF2;
+    background-size: 0% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease;
+}
+
+.code > a:hover{
+    background-size: 100% 100%;
+    border: none;
+}
+
+.code{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.075), 0 6px 20px 0 rgba(0, 0, 0, 0.185);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.lettercls{
+    color: #EB5E28;
+}
+.projectscls > .one {
+    height: 330px;
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.349), 0 6px 20px 0 rgba(0, 0, 0, 0.185);
+}
+.projectscls{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.one > h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.one > p {
+    text-align: left;
+    margin-top: 50px;
+    width: 95%;
+    margin-left: 15px;
+}
+
+button{
+    background-color: #252422;
+    border: none;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.github{
+    color: #EB5E28;
+}
+
+.one .title {
+    color: #EB5E28;
+}
+.techstack{
+    margin-bottom: 70px;
+}
+
+.tstack{
+    margin-left:130px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.tech{
+    display: flex;
+    gap: 70px;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+.tech > * {
+    height: 40px;
+}
+
+.certHead,.letalk{
+    font-size: 30Px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    margin-left:130px;
+}
+
+.cert,.talk{
+    color: #EB5E28;
+}
+
+.pointscls{
+    margin-left: 150px;
+}
+ul > li{
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.navbar > div > a{
+    background: linear-gradient(#EB5E28) left no-repeat, #FFFCF2;
+    background-size: 0% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease;
+}
+
+.navbar > div > a:hover{
+    background-size: 100% 100%;
+    border: none;
+}
+
+.mail{
+    margin-left: 130px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.letalk{
+    margin-bottom: 20px;
+}
+.mail > a{
+    font-weight: 400;
+}
+
+.extra{
+    height: 100px;
+}
+
+.extra {
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+}
+
+@media (max-width: 800px) {
+    *{
+        text-align: center;
+    }
+    .profilepic > img {
+        height: 200px;
+        width: 200px;
+    }
+    .first-div > .navbar{
+        display: none;
+    }
+    .second-div > .container {
+        display: block;
+        margin-top: 30px;
+    }
+    .container > .profilepic {
+        margin-top: 30px;
+    }
+
+    .second-div > .prof {
+        margin-top: 200px;
+    }
+
+    .prof > .codingprofiles {
+        display: block;
+    }
+
+    .techstack > .tech {
+        display: block;
+    }
+
+    .prof > .codprof {
+        margin-left: 0px;
+    }
+
+    .projectHead,.extra,.mail,.pointscls,.certHead,.letalk,.tech,.tstack,.codingprofiles {
+        margin-left: 0px;
+    }
+
+    .code {
+        margin-top: 20px;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .projectscls {
+        flex-direction: column;
+        align-items: center;   
+    }
+    
+    .extra {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pointscls > ul {
+        width: 70%;
+        margin-left: 90px;
+    }
+}
